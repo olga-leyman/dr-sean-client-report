@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. Sean Plastic Surgery · May–September 2026 Performance Story</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ivory: #f6f1e8;
+      --paper: #fffdf8;
+      --ink: #2c241c;
+      --muted: #6b5e52;
+      --line: #e4d9cb;
+      --bronze: #8b6b45;
+      --bronze-deep: #6f5234;
+      --ok: #3d5c45;
+      --ok-bg: #e7efe8;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--ivory); color: var(--ink); }
+    body { font-family: Manrope, sans-serif; line-height: 1.55; }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 48px 24px 80px; }
+    .kicker { letter-spacing: 0.16em; text-transform: uppercase; font-size: 11px; color: var(--bronze); font-weight: 600; }
+    h1, h2, h3 { font-family: "Cormorant Garamond", serif; font-weight: 600; letter-spacing: -0.02em; margin: 0; }
+    h1 { font-size: clamp(34px, 5vw, 52px); line-height: 1.12; margin: 10px 0 14px; }
+    h2 { font-size: 28px; margin: 48px 0 12px; }
+    h3 { font-size: 22px; margin: 28px 0 10px; }
+    p { color: var(--ink); margin: 0 0 14px; }
+    .lede { font-size: 18px; color: var(--muted); max-width: 42em; }
+    .report-nav { display: flex; gap: 4px; margin: 0 0 28px; border-bottom: 1px solid var(--line); }
+    .report-nav a {
+      font-size: 13px; font-weight: 600; color: var(--muted); text-decoration: none;
+      padding: 10px 14px 12px; border-bottom: 2px solid transparent; margin-bottom: -1px;
+    }
+    .report-nav a.active, .report-nav a:hover { color: var(--ink); border-bottom-color: var(--bronze); }
+    .toolbar { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin: 28px 0 8px; }
+    label { font-size: 13px; font-weight: 600; }
+    select {
+      font: inherit; background: var(--paper); border: 1px solid var(--line);
+      color: var(--ink); padding: 8px 12px; border-radius: 4px; min-width: 260px;
+    }
+    .caption { font-size: 12px; color: var(--muted); margin-bottom: 22px; }
+    .hero {
+      background: var(--ok-bg); border-left: 3px solid var(--ok);
+      padding: 18px 20px; margin: 8px 0 28px;
+    }
+    .hero p { margin: 0; }
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 20px 0 8px; }
+    .stat { background: var(--paper); border: 1px solid var(--line); padding: 16px 14px; }
+    .stat b { display: block; font-family: "Cormorant Garamond", serif; font-size: 28px; font-weight: 600; line-height: 1.1; }
+    .stat span { display: block; margin-top: 6px; font-size: 12px; color: var(--muted); }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; background: var(--paper); }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+    td.num, th.num { text-align: right; white-space: nowrap; }
+    .win td:first-child { box-shadow: inset 3px 0 0 var(--ok); }
+    .bars { display: grid; gap: 10px; margin: 16px 0 8px; }
+    .bar-row { display: grid; grid-template-columns: 140px 1fr 48px; gap: 10px; align-items: center; font-size: 13px; }
+    .bar { height: 10px; background: #ddd3c6; }
+    .bar > i { display: block; height: 100%; background: var(--bronze); }
+    .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .card { background: var(--paper); border: 1px solid var(--line); padding: 18px; }
+    .card h3 { margin-top: 0; }
+    footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+    .path { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 18px 0 8px; }
+    .step { background: var(--paper); border: 1px solid var(--line); padding: 14px 12px; position: relative; }
+    .step .n { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--bronze); font-weight: 700; }
+    .step h3 { font-size: 18px; margin: 6px 0 8px; }
+    .step p { font-size: 13px; color: var(--muted); margin: 0; }
+    @media (max-width: 760px) {
+      .stats, .two, .path { grid-template-columns: 1fr 1fr; }
+      .bar-row { grid-template-columns: 1fr; }
+    }
+    @media print {
+      body { background: white; }
+      .toolbar { display: none; }
+      .wrap { padding: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="kicker">Dr. Sean Plastic Surgery &nbsp;·&nbsp; Brenton Way</div>
+    <nav class="report-nav" aria-label="Report pages">
+      <a class="active" href="index.html">May–Sep story</a>
+      <a href="update.html">Sep 21–29 update</a>
+    </nav>
+    <h1>Google Search is filling the consultation pipeline.</h1>
+    <p class="lede">A client performance story for the Beverly Hills practice. Meta introduced Dr. Sean to 235,862 people. Patients then searched the name on Google, clicked through, and requested a consultation.</p>
+
+    <div class="toolbar">
+      <label for="period">View</label>
+      <select id="period"></select>
+    </div>
+    <p class="caption" id="caption"></p>
+
+    <div class="hero" id="hero"></div>
+    <div class="stats" id="stats"></div>
+
+    <h2>The patient path: Meta introduces. Google closes.</h2>
+    <p>This is the journey we built. A patient sees Dr. Sean on Instagram or Facebook. She may never click that ad. Later she Googles the name. Brand Search is sitting on “dr sean plastic surgery” and “dr sean saadat,” so the consult is captured on Google — at $158 CPA.</p>
+    <div class="path">
+      <div class="step">
+        <div class="n">Step 1</div>
+        <h3>Sees a Meta ad</h3>
+        <p>Instagram or Facebook Reel. 235,862 people reached May–Sep. Most do not tap through.</p>
+      </div>
+      <div class="step">
+        <div class="n">Step 2</div>
+        <h3>Remembers Dr. Sean</h3>
+        <p>The name, Beverly Hills, and rhinoplasty stay with her after the scroll.</p>
+      </div>
+      <div class="step">
+        <div class="n">Step 3</div>
+        <h3>Googles the name</h3>
+        <p>She types “dr sean plastic surgery” or “dr sean saadat” — not the ad, the surgeon.</p>
+      </div>
+      <div class="step">
+        <div class="n">Step 4</div>
+        <h3>Brand Search closes</h3>
+        <p>Our brand campaign is waiting. $788 spent. $158 CPA. Then the consult request.</p>
+      </div>
+    </div>
+    <p class="caption">Google Analytics almost never shows “Meta then Google” on the same user. They did not click the Reel. They searched days later. Brand Search is how we catch that demand.</p>
+
+    <h3>Meta people reached</h3>
+    <div class="bars" id="metaReach"></div>
+    <p class="caption">Unique people reached · Meta · May 1–Sep 17, 2026. June is when Reels scaled (3.5k → 74k people).</p>
+
+    <h3>Then they search “Dr. Sean”</h3>
+    <div class="bars" id="brandClicks"></div>
+    <p class="caption">Google clicks on Saadat name queries (dr sean plastic surgery, dr sean saadat, sean saadat md) · May 1–Sep 17, 2026. June doubled vs May as Meta turned on. August, Meta’s biggest month, was the strongest name-search month.</p>
+
+    <table>
+      <thead>
+        <tr><th>Stage</th><th>What the patient does</th><th>What we run</th><th>Proof</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Introduce</td>
+          <td>Watches a rhinoplasty Reel</td>
+          <td>Meta — 434k impressions, 236k people</td>
+          <td>Reach 3.5k in May → 86k in August</td>
+        </tr>
+        <tr>
+          <td>Research</td>
+          <td>Types the surgeon’s name into Google</td>
+          <td>Brand Search always on</td>
+          <td>“dr sean plastic surgery” clicks 7 in May → 14 in June</td>
+        </tr>
+        <tr>
+          <td>Capture</td>
+          <td>Clicks Dr. Sean, not a competitor</td>
+          <td>Search | Brand | Exact &amp; Phrase</td>
+          <td>$788 · 357 clicks · 5 conversions · $158 CPA</td>
+        </tr>
+        <tr>
+          <td>Consult</td>
+          <td>Requests a consultation</td>
+          <td>Paid Search + brand landing</td>
+          <td>40 of 73 website requests came from Paid Search</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>We checked the path. Here is what the data can prove.</h2>
+    <p>We looked for the exact sequence: saw a Reel, visited the site, Googled Dr. Sean, filled in the form. Meta, Instagram, Google Ads, and the website do not share one person ID, so we cannot name a single viewer and walk her through all four steps. We can prove each step of the system — and that is the right proof for this journey, because most people never click the Reel.</p>
+    <table>
+      <thead>
+        <tr><th>Check</th><th>What we found</th><th>What it means</th></tr>
+      </thead>
+      <tbody>
+        <tr class="win">
+          <td>Did Meta actually reach people?</td>
+          <td>235,862 unique people. 310,478 video views. Reels campaign: 135,042 people.</td>
+          <td>The name was introduced at scale. June is when it turned on (3.5k → 74k people).</td>
+        </tr>
+        <tr class="win">
+          <td>Did anyone go to the website after Meta?</td>
+          <td>Yes. ~4,900 Paid Social users on the site. 9,540 Meta landing-page views. 10 started a consult form.</td>
+          <td>Clicks from Meta do land. Instagram in-app also sent 5 completed website forms.</td>
+        </tr>
+        <tr>
+          <td>Did they then search the name?</td>
+          <td>Google clicks on Dr. Sean / Saadat terms: 12 in May → 18 in June → 27 in August, Meta’s biggest reach month.</td>
+          <td>Name-search demand rose after Reels scaled. That is the view-through path in aggregate.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="caption">Sources: Meta Insights, GA4 first-user vs session channel × form_submit, GA4 Facebook/Instagram session source, Google Ads name-term clicks · May 1–Sep 17, 2026. Quiz SoCal also shows 2 Meta pixel leads on 1-day view — converted after seeing the ad without a required click.</p>
+
+    <h2>What Meta delivered</h2>
+    <p>Five rhinoplasty campaigns are live and spending. Everything else in the account is older work that is paused. All five below are Active. The win on Meta this season is reach — introducing Dr. Sean to a market that then searches.</p>
+    <div class="stats">
+      <div class="stat"><b>235,862</b><span>Unique people reached (all Meta)</span></div>
+      <div class="stat"><b>135,042</b><span>Biggest campaign reach — Video Views Reels</span></div>
+      <div class="stat"><b>310,478</b><span>Video views</span></div>
+      <div class="stat"><b>110,787</b><span>Facebook people reached</span></div>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>60,783</b><span>Instagram people reached</span></div>
+      <div class="stat"><b>9,540</b><span>Landing-page views from Meta</span></div>
+      <div class="stat"><b>15.5%</b><span>Highest CTR — Rhino creative testing</span></div>
+      <div class="stat"><b>$2,732</b><span>Largest Meta spend — creative testing</span></div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Campaign</th>
+          <th>Job</th>
+          <th class="num">Reach</th>
+          <th class="num">CTR</th>
+          <th>What it did</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="win">
+          <td>VID-VIEWS | RHINO | US-T1 | Reels</td>
+          <td>Introduce the name</td>
+          <td class="num">135,042</td>
+          <td class="num">0.69%</td>
+          <td>187k video views. Largest audience. This is the halo engine.</td>
+        </tr>
+        <tr class="win">
+          <td>TRAFFIC | Reels | Natural</td>
+          <td>Get the click</td>
+          <td class="num">52,464</td>
+          <td class="num">10.8%</td>
+          <td>8,033 link clicks at $0.11 CPC.</td>
+        </tr>
+        <tr>
+          <td>LEADS | Rhinoplasty | creative testing</td>
+          <td>Push to the site</td>
+          <td class="num">16,749</td>
+          <td class="num">15.5%</td>
+          <td>Highest CTR. 7,093 landing-page views. Ad: Rhino | Too Young. Highest spend.</td>
+        </tr>
+        <tr>
+          <td>LEADS | Rhino Quiz | SoCal | v1</td>
+          <td>Southern California quiz</td>
+          <td class="num">18,642</td>
+          <td class="num">5.8%</td>
+          <td>Local geo. 18 message starts.</td>
+        </tr>
+        <tr>
+          <td>LEADS | Rhino Quiz | US ex-CA | v1</td>
+          <td>National quiz</td>
+          <td class="num">18,320</td>
+          <td class="num">6.5%</td>
+          <td>Outside California. Same three quiz ads as SoCal.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="caption">Meta Insights · DSPS · May 1–Sep 17, 2026. All five campaigns are Active.</p>
+    <table>
+      <thead>
+        <tr><th>Placement</th><th class="num">Spend</th><th class="num">Reach</th><th class="num">CTR</th><th>Read</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Facebook</td>
+          <td class="num">$2,567</td>
+          <td class="num">110,787</td>
+          <td class="num">4.1%</td>
+          <td>Most people reached on-platform — the name gets seen</td>
+        </tr>
+        <tr>
+          <td>Instagram</td>
+          <td class="num">$2,650</td>
+          <td class="num">60,783</td>
+          <td class="num">7.4%</td>
+          <td>Highest CTR of the major placements — Reels working</td>
+        </tr>
+        <tr>
+          <td>Audience Network</td>
+          <td class="num">—</td>
+          <td class="num">70,831</td>
+          <td class="num">6.1%</td>
+          <td>Cheaper inventory, not the brand surface</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="caption">Facebook is the reach vehicle. Instagram is the engagement vehicle. Quiz ads: swelling education, recovery myth, recovery realities. Video-views: selfie and fat-grafting Reels. Creative-testing ad: Rhino | Too Young.</p>
+
+    <h2>What this season proved</h2>
+    <p>Patients in Los Angeles already search by procedure and by surgeon name. We built Google Search around that behavior — brand, exact rhinoplasty, consultation intent, and male rhinoplasty — and it is doing the job. Website consultation requests arrived every month from May through September. Click-through held between 5% and 6%, which is strong for competitive Beverly Hills plastic surgery auctions.</p>
+
+    <h3>Website consultation requests by month</h3>
+    <div class="bars" id="monthForms"></div>
+    <p class="caption">GA4 website form submissions · May 1–Sep 17, 2026. September is 17 days.</p>
+
+    <h3>Google investment stayed consistent</h3>
+    <div class="bars" id="monthSpend"></div>
+    <p class="caption">Google Ads spend · main account · May 1–Sep 17, 2026. Full months held near $3,200. September is partial.</p>
+
+    <h2>Where the wins are coming from</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Campaign / page</th>
+          <th>Role</th>
+          <th class="num">Spend</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="win">
+          <td>Search | Brand | Exact &amp; Phrase</td>
+          <td>People already looking for Dr. Sean</td>
+          <td class="num">$788</td>
+          <td>5 conversions · $158 CPA — the most efficient lane</td>
+        </tr>
+        <tr class="win">
+          <td>SEARCH | RHINOPLASTY | EXACT MATCH</td>
+          <td>High-intent procedure search</td>
+          <td class="num">$1,536</td>
+          <td>5 conversions · $307 CPA</td>
+        </tr>
+        <tr class="win">
+          <td>02 | Rhinoplasty Consultation</td>
+          <td>Patients ready to book</td>
+          <td class="num">$1,245</td>
+          <td>Consultation-intent queries, including “schedule rhinoplasty appointment”</td>
+        </tr>
+        <tr class="win">
+          <td>07 | Male Rhinoplasty</td>
+          <td>A distinct converting audience</td>
+          <td class="num">$1,242</td>
+          <td>2 primary / 3 all conversions</td>
+        </tr>
+        <tr class="win">
+          <td>/face/rhinoplasty</td>
+          <td>The page Google traffic should hit</td>
+          <td class="num">$7,120</td>
+          <td>3,376 clicks · 11 primary / 31 all conversions</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="caption">Google Ads campaign and landing-page reports · May 1–Sep 17, 2026.</p>
+
+    <h2>What people actually typed into Google</h2>
+    <p>These are the live queries that sent people to the site and produced a Google conversion — a call or a form. <strong>Nose job near me</strong> is the strongest non-brand query.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>They typed</th>
+          <th class="num">Site clicks</th>
+          <th class="num">Conversions</th>
+          <th>Why it matters</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="win">
+          <td>nose job near me</td>
+          <td class="num">71</td>
+          <td class="num">2</td>
+          <td>Ready-to-book local intent. Highest converting non-brand query.</td>
+        </tr>
+        <tr class="win">
+          <td>dr sean plastic surgery</td>
+          <td class="num">50</td>
+          <td class="num">1 (2 all)</td>
+          <td>They already know the name. Brand Search is catching them.</td>
+        </tr>
+        <tr class="win">
+          <td>dr sean saadat</td>
+          <td class="num">14</td>
+          <td class="num">1</td>
+          <td>Name search. Meta introduces, Google closes.</td>
+        </tr>
+        <tr>
+          <td>la rhinoplasty / rhinoplasty near me</td>
+          <td class="num">75+</td>
+          <td class="num">1+</td>
+          <td>Procedure + city. This is the core rhino shopper.</td>
+        </tr>
+        <tr>
+          <td>best plastic surgeons for rhinoplasty near me</td>
+          <td class="num">1</td>
+          <td class="num">1</td>
+          <td>Comparison shopper who still converted.</td>
+        </tr>
+        <tr>
+          <td>beverly hills rhinoplasty cost</td>
+          <td class="num">1</td>
+          <td class="num">1</td>
+          <td>Price-check that became a conversion.</td>
+        </tr>
+        <tr>
+          <td>plastic surgeon in beverly hills ca</td>
+          <td class="num">1</td>
+          <td class="num">1</td>
+          <td>Location + specialty.</td>
+        </tr>
+        <tr>
+          <td>competitor names (Kanodia, Barrett, Frankel)</td>
+          <td class="num">9+</td>
+          <td class="num">3</td>
+          <td>They searched someone else. We showed up and converted.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="caption">Google Ads search terms · May 1–Sep 17, 2026. Clicks = to the website. Conversions = calls + tracked form fills. Google hides some converting queries.</p>
+
+    <div class="two">
+      <div class="card">
+        <h3>Brand is working</h3>
+        <p>Searches for Dr. Sean’s name are converting. Reputation and Search are reinforcing each other: patients who already know the practice can find it instantly, and that traffic is not being handed to a competitor.</p>
+      </div>
+      <div class="card">
+        <h3>Rhinoplasty is the engine</h3>
+        <p>The live rhinoplasty page is the strongest Google destination. Homepage and gallery also convert. That matches how Beverly Hills patients shop — procedure first, proof second, then a consult.</p>
+      </div>
+    </div>
+
+    <h2>The pipeline behind the ads</h2>
+    <p>Across May–September the website recorded <strong>73 consultation requests</strong>. Forty came from Paid Search. Organic search and organic social added 18 more at no media cost. The front desk worked inquiries through the summer, including a June inquiry that progressed to surgery in September.</p>
+    <div class="bars" id="channels"></div>
+    <p class="caption">Website consultation requests by channel · GA4 · May 1–Sep 17, 2026.</p>
+
+    <h2>What we are doing next</h2>
+    <p>The next phase is converting more of the demand Google is already creating. Shift more budget into brand, exact rhinoplasty, and consultation-intent — the lanes that already produce requests. Keep Brand Search on while Meta introduces the name.</p>
+    <table>
+      <thead>
+        <tr><th>Next step</th><th>Why it helps the practice</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Put more budget into Brand, Exact rhino, and consult-intent</td>
+          <td>Those campaigns are the ones producing requests.</td>
+        </tr>
+        <tr>
+          <td>Keep Brand Search always on while Meta runs</td>
+          <td>If brand is paused, Meta-introduced patients Google the name and a competitor can take them.</td>
+        </tr>
+        <tr>
+          <td>Align bidding to website requests, then booked consults</td>
+          <td>The account will buy more of what the practice wants: conversations that can become surgery.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <footer>
+      Prepared for Dr. Sean Plastic Surgery · May 1–September 17, 2026 · Google Ads, Google Analytics, and practice inquiry records.<br />
+      This page does not include patient names or contact details. Please do not forward beyond the practice team.
+    </footer>
+  </div>
+  <script>
+    const PERIODS = {
+      may_sep: { label: "May–Sep 2026 (through Sep 17)", caption: "May 1–Sep 17, 2026", googleSpend: 14649.19, googleClicks: 8595, googleImpr: 157077, googleConv: 24, googleCpc: 1.70, formSubmit: 73, paidSearchForms: 40 },
+      last_7: { label: "Last 7 days", caption: "Sep 11–17, 2026", googleSpend: 689.67, googleClicks: 489, googleImpr: 9816, googleConv: 1, googleCpc: 1.41, formSubmit: 6, paidSearchForms: 3 },
+      last_14: { label: "Last 14 days", caption: "Sep 4–17, 2026", googleSpend: 1469.14, googleClicks: 1055, googleImpr: 19761, googleConv: 2, googleCpc: 1.39, formSubmit: 10, paidSearchForms: 4 },
+      last_30: { label: "Last 30 days", caption: "Aug 19–Sep 17, 2026", googleSpend: 3060.86, googleClicks: 2082, googleImpr: 39209, googleConv: 4, googleCpc: 1.47, formSubmit: 17, paidSearchForms: 9 },
+      may: { label: "May 2026", caption: "May 1–31, 2026", googleSpend: 3317.24, googleClicks: 1621, googleImpr: 27670, googleConv: 7, googleCpc: 2.05, formSubmit: 21, paidSearchForms: 21 },
+      jun: { label: "June 2026", caption: "Jun 1–30, 2026", googleSpend: 3175.42, googleClicks: 1821, googleImpr: 35228, googleConv: 4, googleCpc: 1.74, formSubmit: 15, paidSearchForms: 15 },
+      jul: { label: "July 2026", caption: "Jul 1–31, 2026", googleSpend: 3163.21, googleClicks: 1931, googleImpr: 33766, googleConv: 5, googleCpc: 1.64, formSubmit: 9, paidSearchForms: 9 },
+      aug: { label: "August 2026", caption: "Aug 1–31, 2026", googleSpend: 3188.06, googleClicks: 1964, googleImpr: 36842, googleConv: 6, googleCpc: 1.62, formSubmit: 16, paidSearchForms: 16 },
+      sep: { label: "September MTD", caption: "Sep 1–17, 2026 (partial month)", googleSpend: 1805.26, googleClicks: 1258, googleImpr: 23573, googleConv: 2, googleCpc: 1.44, formSubmit: 12, paidSearchForms: 12 }
+    };
+    const ORDER = ["may_sep","last_7","last_14","last_30","may","jun","jul","aug","sep"];
+    const usd = (n, d=0) => n.toLocaleString("en-US", { style: "currency", currency: "USD", maximumFractionDigits: d, minimumFractionDigits: d });
+    const sel = document.getElementById("period");
+    ORDER.forEach(k => {
+      const o = document.createElement("option");
+      o.value = k; o.textContent = PERIODS[k].label;
+      sel.appendChild(o);
+    });
+    function bars(el, rows, max, prefix) {
+      el.innerHTML = rows.map(([name, v]) => {
+        const pct = Math.max(4, Math.round(100 * v / max));
+        return `<div class="bar-row"><div>${name}</div><div class="bar"><i style="width:${pct}%"></i></div><div>${prefix||""}${typeof v==="number" && prefix==="$" ? Math.round(v).toLocaleString() : v}</div></div>`;
+      }).join("");
+    }
+    function render(key) {
+      const p = PERIODS[key];
+      const ctr = 100 * p.googleClicks / p.googleImpr;
+      const cpa = p.googleConv ? p.googleSpend / p.googleConv : 0;
+      const cpl = key === "may_sep" ? p.googleSpend / p.paidSearchForms : p.googleSpend / p.formSubmit;
+      document.getElementById("caption").textContent = p.caption + " · Toggle 7 / 14 / 30 days or any month.";
+      document.getElementById("hero").innerHTML = key === "may_sep"
+        ? `<p>From May through mid-September, Paid Search produced <strong>40 of 73</strong> website consultation requests. Brand search converted at <strong>$158 CPA</strong>. The live rhinoplasty page took <strong>$7,120</strong> and 11 Google conversions. A June inquiry progressed to surgery in September.</p>`
+        : `<p>In ${p.label.toLowerCase()}, Google Search spent <strong>${usd(p.googleSpend)}</strong> for <strong>${p.googleClicks.toLocaleString()} clicks</strong> and <strong>${p.formSubmit} website consultation requests</strong>.</p>`;
+      document.getElementById("stats").innerHTML = [
+        [p.formSubmit, "Website consult requests"],
+        [usd(p.googleSpend), "Google Search investment"],
+        [p.googleClicks.toLocaleString(), "Clicks to the practice site"],
+        [usd(cpl), key === "may_sep" ? "Google $ per Paid Search request" : "Google $ per website request"],
+        [ctr.toFixed(1) + "%", "Google click-through rate"],
+        [usd(p.googleCpc, 2), "Average cost per click"],
+        [cpa ? usd(cpa) : "—", "Google CPA (calls + tracked conv.)"],
+        [p.googleImpr.toLocaleString(), "Times ads were shown"]
+      ].map(([v,l]) => `<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
+    }
+    bars(document.getElementById("monthForms"), [["May",21],["Jun",15],["Jul",9],["Aug",16],["Sep*",12]], 21);
+    bars(document.getElementById("monthSpend"), [["May",3317],["Jun",3175],["Jul",3163],["Aug",3188],["Sep*",1805]], 3317, "$");
+    bars(document.getElementById("channels"), [["Paid Search",40],["Organic Search",9],["Organic Social",9],["Referral",6],["Direct",5]], 40);
+    bars(document.getElementById("metaReach"), [["May",3513],["Jun",73718],["Jul",84385],["Aug",86110],["Sep*",37328]], 86110);
+    bars(document.getElementById("brandClicks"), [["May",12],["Jun",18],["Jul",17],["Aug",27],["Sep*",15]], 27);
+    sel.addEventListener("change", () => render(sel.value));
+    render("may_sep");
+  </script>
+</body>
+</html>
