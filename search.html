@@ -81,7 +81,79 @@
       <a class="active" href="search.html">What people are searching for</a>
     </nav>
     <h1>What people are searching for</h1>
-    <p class="lede">Two views of search. First: what people type, from Google Keyword Planner. Second: which of those queries our ads actually appeared on in the last 30 days.</p>
+    <p class="lede">Three views of search. Organic ranking from Google Search Console (last 28 days). Demand from Keyword Planner. Paid appearances from Google Ads (last 30 days).</p>
+
+    <h2>Organic ranking — Google Search Console</h2>
+    <p>Oct 8–Nov 4, 2026. Web search. Google is associating this site with Beverly Hills — that part is true. It is ranking the <em>homepage</em>, not the rhinoplasty page, and it is not ranking for rhinoplasty.</p>
+
+    <div class="stats">
+      <div class="stat"><b>7</b><span>Organic clicks in 28 days</span></div>
+      <div class="stat"><b>2,010</b><span>Organic impressions · avg position 15.9</span></div>
+      <div class="stat"><b>#1</b><span>“best beverly hills plastic surgeons” · 708 impressions · 0 clicks</span></div>
+      <div class="stat"><b>#31</b><span>“rhinoplasty beverly hills” · 8 impressions · 0 clicks</span></div>
+    </div>
+
+    <div class="hero">
+      <p>Beverly Hills visibility is real: 63% of organic query impressions include “Beverly Hills,” and Google puts the homepage at position 1 for “best beverly hills plastic surgeons” (708 impressions). Nobody clicked it. The rhinoplasty queries people actually use — “best rhinoplasty in beverly hills,” “rhinoplasty beverly hills” — sit on page 4 (positions 31–61). The rhinoplasty URL is not in Search Console’s page report at all. Google is ranking the homepage for surgeon-list searches, not /face/rhinoplasty for nose-job searches.</p>
+    </div>
+
+    <h3>Where the site actually ranks</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Query</th>
+          <th class="num">Impr</th>
+          <th class="num">Clicks</th>
+          <th class="num">Avg position</th>
+          <th>Read</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="win"><td>best beverly hills plastic surgeons</td><td class="num">708</td><td class="num">0</td><td class="num">1.0</td><td>Shown at the top. Not chosen. Ads + map pack usually take this click.</td></tr>
+        <tr class="win"><td>plastic surgeons in beverly hills ca</td><td class="num">27</td><td class="num">0</td><td class="num">4.3</td><td>Page 1 for a BH surgeon list — still 0 clicks.</td></tr>
+        <tr class="win"><td>dr sean plastic surgery</td><td class="num">19</td><td class="num">1</td><td class="num">5.2</td><td>The only query GSC attributed a click to. Live Google also shows the homepage #1 with sitelinks.</td></tr>
+        <tr class="win"><td>dr sean saadat / dr sean</td><td class="num">9 / 9</td><td class="num">0</td><td class="num">2.2 / 2.3</td><td>Name is page 1. Volume is tiny.</td></tr>
+        <tr><td>rhinoplasty beverly hills ca</td><td class="num">12</td><td class="num">0</td><td class="num">1.8</td><td>Rare page-1 rhino variant. 12 impressions.</td></tr>
+        <tr class="lose"><td>best rhinoplasty in beverly hills</td><td class="num">34</td><td class="num">0</td><td class="num">36.9</td><td>Page 4. This is the comparison shopper.</td></tr>
+        <tr class="lose"><td>best rhinoplasty beverly hills</td><td class="num">29</td><td class="num">0</td><td class="num">37.6</td><td>Page 4.</td></tr>
+        <tr class="lose"><td>best rhinoplasty surgeon beverly hills</td><td class="num">28</td><td class="num">0</td><td class="num">35.3</td><td>Page 4.</td></tr>
+        <tr class="lose"><td>rhinoplasty beverly hills</td><td class="num">8</td><td class="num">0</td><td class="num">31.0</td><td>Not on page 1 or 2 in a live Google check either (Kanodia, Rahban, Motykie, Calvert occupy page 1).</td></tr>
+        <tr class="lose"><td>rhinoplasty</td><td class="num">27</td><td class="num">0</td><td class="num">37.8</td><td>Generic procedure search. Page 4.</td></tr>
+      </tbody>
+    </table>
+    <p class="caption">Source: Google Search Console export for www.drseanplasticsurgery.com · last 28 days · web. Query-level clicks (1) are lower than site clicks (7) because Google hides some queries for privacy. Position is the average rank when the site appeared. Page 1 = positions 1–10.</p>
+
+    <h3>What Google is ranking — pages, not just queries</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Page</th>
+          <th class="num">Clicks</th>
+          <th class="num">Impr</th>
+          <th class="num">Avg position</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="win"><td>Homepage /</td><td class="num">7</td><td class="num">2,001</td><td class="num">15.9</td></tr>
+        <tr><td>/Contact</td><td class="num">0</td><td class="num">10</td><td class="num">20.6</td></tr>
+        <tr class="lose"><td>/face/rhinoplasty</td><td class="num">—</td><td class="num">0 in this export</td><td class="num">Not ranking</td></tr>
+        <tr class="lose"><td>/face/male-rhinoplasty</td><td class="num">—</td><td class="num">URL is a 404</td><td class="num">Cannot be indexed</td></tr>
+        <tr class="lose"><td>/west-hollywood-rhinoplasty</td><td class="num">—</td><td class="num">URL is a 404 · 0 WeHo queries</td><td class="num">Cannot be indexed</td></tr>
+      </tbody>
+    </table>
+    <p class="caption">Male rhinoplasty queries totaled 12 impressions (a few at position 1 with 1 impression each). West Hollywood does not appear in the query list at all.</p>
+
+    <div class="two">
+      <div class="card">
+        <h3>What “popular in Beverly Hills” means</h3>
+        <p>Google already ties this practice to Beverly Hills. 991 impressions are BH surgeon/list queries; 263 are BH + rhinoplasty. The win is the association. The gap is converting that into rhinoplasty page-1 rankings and clicks — 0 organic clicks from every BH procedure query in this window.</p>
+      </div>
+      <div class="card">
+        <h3>What to fix next</h3>
+        <p>Rank /face/rhinoplasty for “rhinoplasty beverly hills” and “best rhinoplasty surgeon beverly hills,” not the homepage for “best plastic surgeons.” Male and WeHo need real URLs before they can rank. Name search is already page 1 — paid Brand is there to catch it.</p>
+      </div>
+    </div>
+
 
     <div class="stats">
       <div class="stat"><b>1,000</b><span>rhinoplasty los angeles / month</span></div>
